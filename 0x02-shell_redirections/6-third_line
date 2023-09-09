@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR==3' < file.txt
+cut -d $'\n' -f 3 iacta
